@@ -1,9 +1,9 @@
 //___FILEHEADER___
 
-import Core
 import MBUIKit
 import RIBs
 import RxSwift
+import UIAppTools
 
 final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIABLE_productName___ViewControllable {
     override func viewDidLoad() {

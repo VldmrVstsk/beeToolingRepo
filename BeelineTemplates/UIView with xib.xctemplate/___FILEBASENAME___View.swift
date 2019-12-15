@@ -7,6 +7,7 @@
 //
 
 import MBUIKit
+import UICoreKit
 
 final class ___FILEBASENAME___View: UIView, NibLoadable, ResetableView {
     

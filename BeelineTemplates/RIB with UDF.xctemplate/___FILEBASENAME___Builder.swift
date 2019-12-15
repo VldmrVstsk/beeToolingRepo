@@ -1,7 +1,8 @@
 //___FILEHEADER___
 
-import Core
+import MBUIKit
 import RIBs
+import UIAppTools
 
 final class ___VARIABLE_productName___Component: Component<___VARIABLE_productName___Dependency> {}
 

@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import Core
+import MBTools
 import RIBs
 import RxSwift
 
@@ -25,7 +25,6 @@ final class ___VARIABLE_productName___Interactor: PresentableInteractor<___VARIA
 // MARK: - IOTransformer
 
 extension ___VARIABLE_productName___Interactor: IOTransformer {
-    
     func transform(_ input: ___VARIABLE_productName___ViewOutput) -> ___VARIABLE_productName___InteractorOutput {
         return ___VARIABLE_productName___InteractorOutput()
     }

@@ -20,7 +20,6 @@ protocol ___VARIABLE_productName___Interactable: Interactable {
 
 protocol ___VARIABLE_productName___ViewControllable: ViewControllable {}
 
-
 // MARK: - Interactor
 
 protocol ___VARIABLE_productName___Routing: ViewableRouting {}

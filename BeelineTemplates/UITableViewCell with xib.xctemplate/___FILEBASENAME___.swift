@@ -7,6 +7,7 @@
 //
 
 import MBUIKit
+import UICoreKit
 
 final class ___FILEBASENAME___: UITableViewCell, ResetableView, TableViewRegisterable, NibLoadable {
 
