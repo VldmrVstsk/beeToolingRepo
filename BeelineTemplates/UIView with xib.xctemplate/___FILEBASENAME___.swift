@@ -9,7 +9,7 @@
 import MBUIKit
 import UICoreKit
 
-final class ___FILEBASENAME___View: UIView, NibLoadable, ResetableView {
+final class ___FILEBASENAME___: UIView, NibLoadable, ResetableView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,6 +20,6 @@ final class ___FILEBASENAME___View: UIView, NibLoadable, ResetableView {
     func resetToEmptyState() {}
 }
 
-extension ___FILEBASENAME___View {
+extension ___FILEBASENAME___ {
     private func initialSetup() {}
 }
