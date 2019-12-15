@@ -8,6 +8,9 @@ import RxSwift
 protocol ___VARIABLE_productName___Dependency: Dependency {}
 
 protocol ___VARIABLE_productName___Buildable: Buildable {
+    /**
+     <#Description#>
+     */
     func build(withListener listener: ___VARIABLE_productName___Listener) -> ___VARIABLE_productName___Routing
 }
 

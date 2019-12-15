@@ -1,7 +1,7 @@
 //___FILEHEADER___
 
-import MBUIKit
 import RIBs
+import RxCocoa
 import RxSwift
 import UIAppTools
 
@@ -10,9 +10,7 @@ final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIA
         super.viewDidLoad()
         initialSetup()
     }
-}
-
-extension ___VARIABLE_productName___ViewController {
+    
     private func initialSetup() {}
 }
 
