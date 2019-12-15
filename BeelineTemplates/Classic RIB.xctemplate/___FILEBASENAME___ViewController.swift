@@ -1,8 +1,8 @@
 //___FILEHEADER___
 
-import MBUIKit
 import RIBs
 import RxSwift
+import UIAppTools
 
 final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIABLE_productName___Presentable, ___VARIABLE_productName___ViewControllable {
 
@@ -12,9 +12,7 @@ final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIA
         super.viewDidLoad()
         initialSetup()
     }
-}
-
-extension ___VARIABLE_productName___ViewController {
+    
     private func initialSetup() {}
 }
 
