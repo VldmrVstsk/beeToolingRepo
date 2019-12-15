@@ -4,24 +4,21 @@ import MBUIKit
 import RIBs
 import UIAppTools
 
-final class ___VARIABLE_productName___Component: Component<___VARIABLE_productName___Dependency> {}
+final class ___VARIABLE_productName___Builder: Builder<EmptyDependency>, ___VARIABLE_productName___Buildable {
+  override init(dependency: EmptyDependency) {
+    super.init(dependency: dependency)
+  }
 
-final class ___VARIABLE_productName___Builder: Builder<___VARIABLE_productName___Dependency>, ___VARIABLE_productName___Buildable {
+  func build(withListener listener: ___VARIABLE_productName___Listener) -> ___VARIABLE_productName___Routing {
+    let emptyComponent = EmptyComponent()
 
-    override init(dependency: ___VARIABLE_productName___Dependency) {
-        super.init(dependency: dependency)
-    }
+    let viewController = ___VARIABLE_productName___ViewController.instantiateFromStoryboard()
+    let presenter = ___VARIABLE_productName___Presenter()
+    let interactor = ___VARIABLE_productName___Interactor(presenter: presenter)
 
-    func build(withListener listener: ___VARIABLE_productName___Listener) -> ___VARIABLE_productName___Routing {
-        let component = ___VARIABLE_productName___Component(dependency: dependency)
-        
-        let viewController = ___VARIABLE_productName___ViewController.instantiateFromStoryboard()
-        let presenter = ___VARIABLE_productName___Presenter()
-        let interactor = ___VARIABLE_productName___Interactor(presenter: presenter)
-        
-        VIPBinder.bind(view: viewController, interactor: interactor, presenter: presenter)
-        
-        interactor.listener = listener
-        return ___VARIABLE_productName___Router(interactor: interactor, viewController: viewController)
-    }
+    VIPBinder.bind(view: viewController, interactor: interactor, presenter: presenter)
+
+    interactor.listener = listener
+    return ___VARIABLE_productName___Router(interactor: interactor, viewController: viewController)
+  }
 }

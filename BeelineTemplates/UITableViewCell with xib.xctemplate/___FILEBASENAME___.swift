@@ -10,16 +10,13 @@ import MBUIKit
 import UICoreKit
 
 final class ___FILEBASENAME___: UITableViewCell, ResetableView, TableViewRegisterable, NibLoadable {
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    resetToEmptyState()
+    initialSetup()
+  }
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        resetToEmptyState()
-        initialSetup()
-    }
-    
-    func resetToEmptyState() {}
-}
+  func resetToEmptyState() {}
 
-extension ___FILEBASENAME___ {
-    private func initialSetup() {}
+  private func initialSetup() {}
 }

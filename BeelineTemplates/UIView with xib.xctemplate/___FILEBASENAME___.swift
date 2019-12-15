@@ -10,16 +10,13 @@ import MBUIKit
 import UICoreKit
 
 final class ___FILEBASENAME___: UIView, NibLoadable, ResetableView {
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        resetToEmptyState()
-        initialSetup()
-    }
-    
-    func resetToEmptyState() {}
-}
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    resetToEmptyState()
+    initialSetup()
+  }
 
-extension ___FILEBASENAME___ {
-    private func initialSetup() {}
+  func resetToEmptyState() {}
+
+  private func initialSetup() {}
 }

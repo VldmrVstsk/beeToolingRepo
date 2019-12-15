@@ -9,7 +9,7 @@ final class ___VARIABLE_productName___Presenter: ___VARIABLE_productName___Prese
 // MARK: - IOTransformer
 
 extension ___VARIABLE_productName___Presenter: IOTransformer {
-    func transform(_ interactorOutput: ___VARIABLE_productName___InteractorOutput) -> ___VARIABLE_productName___PresenterOutput {
-        return ___VARIABLE_productName___PresenterOutput()
-    }
+  func transform(_ input: ___VARIABLE_productName___InteractorOutput) -> ___VARIABLE_productName___PresenterOutput {
+    return ___VARIABLE_productName___PresenterOutput()
+  }
 }
