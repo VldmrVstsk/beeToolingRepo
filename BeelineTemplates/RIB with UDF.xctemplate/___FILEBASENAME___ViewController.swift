@@ -11,16 +11,12 @@ final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIA
 
   private var underlyingView: View { view as! View }
 
-  override func isCustomizeNavigationBar() -> Bool { true }
-
   override func loadView() {
     view = View()
   }
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // customNavigationBarStyle = .white
-    underlyingView.navigationBar = mbNavigationBar
     bindIfNeeded()
   }
 }
@@ -30,8 +26,6 @@ final class ___VARIABLE_productName___ViewController: UIViewController, ___VARIA
 extension ___VARIABLE_productName___ViewController {
   private final class View: UIView {
     let disposeBag = DisposeBag()
-
-    weak var navigationBar: UINavigationBar?
 
     override init(frame: CGRect) {
       super.init(frame: frame)
