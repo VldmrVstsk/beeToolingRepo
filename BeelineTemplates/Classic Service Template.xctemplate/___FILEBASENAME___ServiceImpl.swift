@@ -2,7 +2,7 @@
 
 import Foundation
 
-final class ___FILEBASENAME__ServiceImpl: ___FILEBASENAME__Service {
+final class ___VARIABLE_productName___ServiceImpl: ___FILEBASENAME__Service {
 
   init() {
     //

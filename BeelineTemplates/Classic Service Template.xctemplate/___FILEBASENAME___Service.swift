@@ -2,6 +2,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAME__Service: AnyObject {
+protocol ___VARIABLE_productName___Service: AnyObject {
 
 }
